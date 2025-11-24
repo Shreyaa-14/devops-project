@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #2b78e4;
+    color: white;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    background: linear-gradient(to right, #2b78e4, #6fa8dc);
+    padding: 90px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero button {
+    background: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.services {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f1f1f1;
+}
+
+.service-box {
+    background: white;
+    display: inline-block;
+    width: 300px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2b78e4;
+    color: white;
+}
+
+.dark {
+    background: #222;
+    color: white;
+}
+
+.dark header, .dark footer {
+    background: black;
+}
+
+.dark .service-box {
+    background: #333;
+    color: white;
+    box-shadow: none;
+}
+
+.dark .hero {
+    background: linear-gradient(to right, #000, #222);
+}

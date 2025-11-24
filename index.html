@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Solutions | Business Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h2 class="logo">Tech Solutions</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="themeBtn">Dark Mode</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 id="typing"></h1>
+        <p>Your growth is our priority. Empowering businesses with smart technology.</p>
+        <button onclick="learnMore()">Learn More</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Website Development</h3>
+            <p>Professional and responsive website designs for your business.</p>
+        </div>
+        <div class="service-box">
+            <h3>App Development</h3>
+            <p>High-quality mobile apps for Android and iOS.</p>
+        </div>
+        <div class="service-box">
+            <h3>Cloud & DevOps</h3>
+            <p>Complete DevOps automation and cloud infrastructure setup.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="submitForm()">Send</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Tech Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
