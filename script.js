@@ -1,4 +1,4 @@
-const text = "We Build Digital Solutions for Your Business";
+const text = "Changed text which will be shown after CI and CD";
 let index = 0;
 
 function typingEffect() {
