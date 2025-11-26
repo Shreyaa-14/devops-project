@@ -1,4 +1,4 @@
-const text = "Changed text which will be shown after CI and CD";
+const text = "hahahahaa";
 let index = 0;
 
 function typingEffect() {
