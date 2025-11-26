@@ -1,4 +1,4 @@
-const text = "hahahahaa";
+const text = "zzzzzzzzzzzzzzzz";
 let index = 0;
 
 function typingEffect() {
